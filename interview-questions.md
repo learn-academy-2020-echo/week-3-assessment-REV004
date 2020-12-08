@@ -30,7 +30,7 @@ Your answer:
 Researched answer:
 
 What is React.Fragment (or <>) and why would you want to use it?
-Your answer: ghost carrots
+Your answer: ghost carrots used to enclose a long piece of code
 
 Researched answer: Fragments let you group a list of children without adding extra nodes to the DOM.
 

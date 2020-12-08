@@ -53,13 +53,42 @@
 // // --------------------4) READ CAREFULLY: Create a CLASS to get the area of a sphere. Create THREE spheres with different radi as test cases. Area of a sphere =  4πr^2 (four * pi * radi squared)
 //ran out of time as i was trying to do challenges from the beggining of the syllabus to practice will go twork through them
 
+// class Sphere {
+// 	constructor(radius) {
+// 		this.radius = radius;
+// 	}
+
+// 	areaCalc() {
+// 		return 4 * 3.14159 * (this.radius * this.radius);
+// 	}
+// }
+
+// const sphere1 = new sphere1(5);
+
+// console.log(sphere1.areaCalc());
 // // --------------------5) Create a function that takes in an array and returns an array of the accumulating sum. An empty array should return an empty array.
 
-// var numbersToAdd1 = [2, 4, 45, 9]
-// // Excpected output: [2, 6, 51, 60]
-// var numbersToAdd2 = [0, 7, -8, 12]
-// // Expected output: [0, 7, -1, 11]
-// var numbersToAdd3 = []
-// // Expected output: []
+// var numbersToAdd1 = [2, 4, 45, 9];
+// // // Excpected output: [2, 6, 51, 60]
+// var numbersToAdd2 = [0, 7, -8, 12];
+// // // Expected output: [0, 7, -1, 11]
+// var numbersToAdd3 = [];
+// // // Expected output: []
 
-// ran out of time working on portfolio project will get back to it and ush it up on tuesday
+// const plus = (arr) => {
+// 	let newArray = [];
+// 	let sum = 0;
+// 	if (arr.length === 0) {
+// 		return newArray;
+// 	} else {
+// 		for (let index = 0; index < arr.length; index++) {
+// 			sum = sum + arr[index];
+// 			newArray.push(sum);
+// 		}
+// 	}
+// 	return newArray;
+// };
+
+// console.log(plus(numbersToAdd1));
+// console.log(plus(numbersToAdd2));
+// console.log(plus(numbersToAdd3));
